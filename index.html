@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Island Tasks</title>
+
+  <!-- Font (important on Ubuntu) -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+
+    <h1>Daily Island Tasks 🌿</h1>
+
+    <div class="bulletin">
+      <p class="bulletin-label">Island Bulletin 🪴</p>
+      <div class="bulletin-box">
+        <p id="bulletin-message">
+          Good morning! A fresh island day awaits 🌞
+        </p>
+      </div>
+    </div>
+
+    <div class="task-card">
+      <h2>Today's Island Chores 🍃</h2>
+
+      <ul class="task-list">
+        <li><input type="checkbox"> 🌳 Shake trees</li>
+        <li><input type="checkbox"> 🐟 Catch a fish</li>
+        <li><input type="checkbox"> 🪨 Hit rocks</li>
+        <li><input type="checkbox"> 🦋 Catch a bug</li>
+        <li><input type="checkbox"> 🌼 Water flowers</li>
+      </ul>
+
+      <p class="progress">0 / 5 tasks completed 🌼</p>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

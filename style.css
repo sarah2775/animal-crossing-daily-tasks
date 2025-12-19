@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  margin: 0;
+  background: #eaf7f1;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.app {
+  width: 400px;
+}
+
+h1 {
+  text-align: center;
+  color: #4a7c59;
+  margin-bottom: 30px;
+}
+
+.bulletin-label {
+  font-size: 12px;
+  color: #9aaa95;
+  margin-bottom: 6px;
+}
+
+.bulletin-box {
+  background: #ffffff;
+  border: 2px solid #e6d8b8;
+  border-radius: 24px;
+  padding: 16px;
+  margin-bottom: 24px;
+}
+
+#bulletin-message {
+  color: #4a7c59;
+  font-size: 16px;
+  margin: 0;
+}
+
+.task-card {
+  background: #fffdf8;
+  border: 2px solid #e6d8b8;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+.task-card h2 {
+  color: #7a9e7e;
+  margin-top: 0;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+.task-list li {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+.progress {
+  margin-top: 16px;
+  font-size: 14px;
+  color: #777;
+}
